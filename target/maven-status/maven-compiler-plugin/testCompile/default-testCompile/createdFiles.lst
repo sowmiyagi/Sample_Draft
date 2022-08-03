@@ -1,0 +1,16 @@
+com\dsalgo\testcases\TC_Logintest_datadriven.class
+com\dsalgo\testcases\Executionlistener.class
+com\dsalgo\testcases\Arraypagetest.class
+com\dsalgo\testcases\Baseclass.class
+com\dsalgo\testcases\Registrationtest.class
+com\dsalgo\testcases\Homepagetest.class
+com\dsalgo\pageobject\Loginpage.class
+com\dsalgo\pageobject\Homepage.class
+com\dsalgo\pageobject\Treepage.class
+com\dsalgo\testcases\Treepagetest.class
+com\dsalgo\testcases\Getstartedtest.class
+com\dsalgo\pageobject\Arraypage.class
+com\dsalgo\utilities\ReadConfig.class
+com\dsalgo\utilities\XLUtility.class
+com\dsalgo\pageobject\Registrationpage.class
+com\dsalgo\pageobject\Getstartedpage.class

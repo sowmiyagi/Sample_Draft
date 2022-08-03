@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DS-Algo]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.dsalgo.testcases.Executionlistener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.dsalgo.testcases.Treepagetest">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="setup"/>
+          <include name="treetest"/>
+        </methods>
+      </class> <!-- com.dsalgo.testcases.Treepagetest -->
+      <class name="com.dsalgo.testcases.Getstartedtest">
+        <methods>
+          <include name="quitbrowser"/>
+          <include name="Getstarted"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dsalgo.testcases.Getstartedtest -->
+      <class name="com.dsalgo.testcases.Arraypagetest">
+        <methods>
+          <include name="Arraypagetest1"/>
+          <include name="quitbrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dsalgo.testcases.Arraypagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [DS-Algo] -->
